@@ -29,9 +29,8 @@ An end-to-end deep learning system for **automated pneumonia detection** from ch
 │   ├── densenet_pneumonia_model.keras
 │   └── resnet_pneumonia_model.keras
 ├── notebooks/
-│   └── pneumonia_detection.ipynb   # Training & evaluation notebook
-└── .streamlit/
-    └── config.toml                 # Optional theme configuration
+│   └── Automated_Pneumonia_Detection_from_Chest_X_Ray_Images.ipynb   # Training & evaluation notebook
+
 ```
 
 ---
