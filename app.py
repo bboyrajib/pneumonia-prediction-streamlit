@@ -455,6 +455,17 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+st.markdown(
+    """
+    <style>
+    .stTabs [data-baseweb="tab-list"] {
+        justify-content: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "🔬 Single Predict",
     "⚖️ Model Comparison",
