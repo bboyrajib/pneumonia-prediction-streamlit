@@ -1,0 +1,93 @@
+{
+  "classes": [
+    "NORMAL",
+    "PNEUMONIA",
+    "COVID"
+  ],
+  "class_to_idx": {
+    "COVID": 0,
+    "NORMAL": 1,
+    "PNEUMONIA": 2
+  },
+  "img_size": [
+    224,
+    224
+  ],
+  "num_classes": 3,
+  "dropout_rate": 0.4,
+  "mc_passes": 50,
+  "uncertainty_threshold": 0.35,
+  "ensemble_weights": [
+    0.33150543273601113,
+    0.3336465300064824,
+    0.33484803725750645
+  ],
+  "model_names": [
+    "DenseNet121",
+    "ResNet50",
+    "EfficientNetB0"
+  ],
+  "model_types": [
+    "densenet",
+    "resnet",
+    "efficientnet"
+  ],
+  "gradcam_layers": {
+    "densenet121": "features.denseblock4",
+    "resnet50": "layer4",
+    "efficientnetb0": "features.7"
+  },
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "model_paths": {
+    "densenet121": "C:\\Users\\LENOVO\\Downloads\\Automated Pneumonia Detection from Chest X-Ray Images\\model\\densenet_3class.pt",
+    "resnet50": "C:\\Users\\LENOVO\\Downloads\\Automated Pneumonia Detection from Chest X-Ray Images\\model\\resnet_3class.pt",
+    "efficientnetb0": "C:\\Users\\LENOVO\\Downloads\\Automated Pneumonia Detection from Chest X-Ray Images\\model\\efficientnet_3class.pt"
+  },
+  "metrics": [
+    {
+      "Model": "DenseNet121",
+      "Accuracy": 0.9019,
+      "Macro AUC": 0.9814,
+      "Macro F1": 0.8937,
+      "F1-NORMAL": 0.9066,
+      "F1-PNEUMONIA": 0.9069,
+      "F1-COVID": 0.8678
+    },
+    {
+      "Model": "ResNet50",
+      "Accuracy": 0.9263,
+      "Macro AUC": 0.9875,
+      "Macro F1": 0.9232,
+      "F1-NORMAL": 0.9296,
+      "F1-PNEUMONIA": 0.9269,
+      "F1-COVID": 0.9131
+    },
+    {
+      "Model": "EfficientNetB0",
+      "Accuracy": 0.9367,
+      "Macro AUC": 0.99,
+      "Macro F1": 0.9376,
+      "F1-NORMAL": 0.9377,
+      "F1-PNEUMONIA": 0.9345,
+      "F1-COVID": 0.9407
+    },
+    {
+      "Model": "Ensemble",
+      "Accuracy": 0.9374,
+      "Macro AUC": 0.9908,
+      "Macro F1": 0.9396,
+      "F1-NORMAL": 0.9383,
+      "F1-PNEUMONIA": 0.934,
+      "F1-COVID": 0.9465
+    }
+  ]
+}

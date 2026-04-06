@@ -1,7 +1,37 @@
-streamlit
-tensorflow
-numpy
-opencv-python-headless
-matplotlib
-pillow
-scikit-learn
+# Core — PyTorch CUDA 12.4 (compatible with RTX 3060, CUDA 13.x driver)
+# Install PyTorch separately via:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# Data / numerics
+numpy==1.26.4
+pandas==2.2.2
+
+# Image processing
+opencv-python-headless==4.9.0.80
+Pillow==10.3.0
+albumentations==1.4.3
+
+# ML utilities
+scikit-learn==1.4.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# App
+streamlit==1.35.0
+plotly==5.22.0
+
+# Dataset download
+kaggle==1.6.14
+
+# Jupyter (local notebook)
+jupyter==1.0.0
+ipykernel==6.29.4
+ipywidgets==8.1.3
+
+# Utilities
+tqdm==4.66.4

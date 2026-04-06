@@ -1,1 +1,31 @@
-./venv/
+# Virtual environments
+venv/
+.venv/
+
+# Data directory (large datasets)
+data/
+
+# Trained model files
+model/checkpoints/
+model/*.keras
+model/*.h5
+model/*.pt
+model/*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and outputs
+*.log
+logs/
