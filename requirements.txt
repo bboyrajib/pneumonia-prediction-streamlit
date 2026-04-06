@@ -1,7 +1,7 @@
 # Core — CPU-only PyTorch (Streamlit Cloud has no GPU)
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.3.0+cpu
-torchvision==0.18.0+cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
 
 # Data / numerics — versions with Python 3.13 wheels (no source build)
 numpy>=2.0.0
