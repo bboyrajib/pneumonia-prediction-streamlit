@@ -5,13 +5,6 @@ venv/
 # Data directory (large datasets)
 data/
 
-# Trained model files
-model/checkpoints/
-model/*.keras
-model/*.h5
-model/*.pt
-model/*.pth
-
 # Python
 __pycache__/
 *.py[cod]
