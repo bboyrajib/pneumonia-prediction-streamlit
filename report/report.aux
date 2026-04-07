@@ -1,0 +1,81 @@
+\relax 
+\citation{kermany2018}
+\citation{chowdhury2020}
+\@writefile{toc}{\contentsline {section}{\numberline {1} Introduction}{1}{}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2} Dataset}{1}{}\protected@file@percent }
+\newlabel{sec:data}{{2}{1}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1} Sources and label unification}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2} Statistics and preprocessing}{1}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Dataset statistics after deduplication (80/10/10 stratified split).}}{1}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:dataset}{{1}{1}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3} Baseline Methods}{1}{}\protected@file@percent }
+\newlabel{sec:baseline}{{3}{1}{}{}{}}
+\citation{huang2017}
+\citation{he2016}
+\citation{tan2019}
+\citation{lin2017}
+\citation{selvaraju2017}
+\@writefile{toc}{\contentsline {section}{\numberline {4} Methodology}{2}{}\protected@file@percent }
+\newlabel{sec:method}{{4}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1} Model architectures}{2}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Backbone summary and shared head design ($f$ = backbone output dim).}}{2}{}\protected@file@percent }
+\newlabel{tab:arch}{{2}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2} Two-phase transfer learning}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3} Loss function and class balancing}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4} Ensemble: AUC-weighted soft voting}{2}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Ensemble weights derived from validation macro AUC.}}{2}{}\protected@file@percent }
+\newlabel{tab:ensemble}{{3}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5} Uncertainty quantification — MC Dropout}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6} Grad-CAM explainability}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5} Experiments and Results}{2}{}\protected@file@percent }
+\newlabel{sec:results}{{5}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1} Training dynamics}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Training and validation loss/accuracy per epoch (Phase 1 + Phase 2) for all three models.}}{2}{}\protected@file@percent }
+\newlabel{fig:training}{{1}{2}{}{}{}}
+\citation{rajpurkar2017}
+\citation{wang2020}
+\citation{minaee2020}
+\citation{narin2021}
+\citation{zhang2020}
+\citation{wang2020}
+\citation{narin2021}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Test set performance — all models and ensemble.}}{3}{}\protected@file@percent }
+\newlabel{tab:results}{{4}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2} Test set performance}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3} Confusion matrices and ROC curves}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Normalised confusion matrices for all models and the ensemble on the test set.}}{3}{}\protected@file@percent }
+\newlabel{fig:cm}{{2}{3}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces One-vs-Rest ROC curves per class for each model and the ensemble.}}{3}{}\protected@file@percent }
+\newlabel{fig:roc}{{3}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4} Calibration and uncertainty analysis}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Calibration (reliability) diagrams for all models and ensemble.}}{3}{}\protected@file@percent }
+\newlabel{fig:calib}{{4}{3}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Uncertainty distributions for correct vs.\ misclassified samples. Dashed line: referral threshold of 0.35.}}{3}{}\protected@file@percent }
+\newlabel{fig:unc}{{5}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5} Grad-CAM qualitative results}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Representative CXRs used for Grad-CAM visualisation. Pneumonia maps highlight lower-lobe consolidations; COVID maps show bilateral ground-glass opacities; Normal maps are diffuse and low-intensity.}}{3}{}\protected@file@percent }
+\newlabel{fig:gradcam}{{6}{3}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6} Comparison with State of the Art}{3}{}\protected@file@percent }
+\newlabel{sec:sota}{{6}{3}{}{}{}}
+\bibcite{kermany2018}{1}
+\bibcite{chowdhury2020}{2}
+\bibcite{huang2017}{3}
+\bibcite{he2016}{4}
+\bibcite{tan2019}{5}
+\bibcite{lin2017}{6}
+\bibcite{selvaraju2017}{7}
+\bibcite{rajpurkar2017}{8}
+\bibcite{wang2020}{9}
+\bibcite{minaee2020}{10}
+\bibcite{narin2021}{11}
+\bibcite{zhang2020}{12}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Comparison with published methods on chest X-ray classification.}}{4}{}\protected@file@percent }
+\newlabel{tab:sota}{{5}{4}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7} Conclusion}{4}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{7}{4}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8} Compliance with ethical standards}{4}{}\protected@file@percent }
+\newlabel{sec:ethics}{{8}{4}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9} References}{4}{}\protected@file@percent }
+\gdef \@abspage@last{4}

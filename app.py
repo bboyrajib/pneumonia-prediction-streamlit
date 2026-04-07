@@ -1,5 +1,5 @@
 # ==============================================================================
-# app.py — PneumoAI  |  Chest X-Ray Analysis
+# app.py — PneumoAI  |  Pneumonia & COVID-19 Detection from Chest X-Ray Images
 # 5-tab Streamlit UI  |  PyTorch + CUDA  |  DenseNet121 / ResNet50 / EfficientNetB0
 # Run:  streamlit run app.py
 # ==============================================================================
@@ -31,7 +31,7 @@ import streamlit as st
 # ==============================================================================
 
 st.set_page_config(
-    page_title="PneumoAI — Chest X-Ray Analysis",
+    page_title="PneumoAI — Pneumonia & COVID-19 Detection",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -825,8 +825,7 @@ with tab5:
     st.header("ℹ️ About")
 
     st.markdown("""
-**PneumoAI** is an end-to-end deep learning system for automated chest X-ray
-classification distinguishing **Normal**, **Pneumonia**, and **COVID-19** findings.
+**PneumoAI** is an end-to-end deep learning system for automated **Pneumonia and COVID-19 Detection from Chest X-Ray Images**, classifying scans into **Normal**, **Pneumonia**, and **COVID-19**.
     """)
 
     st.subheader("👤 Developer")

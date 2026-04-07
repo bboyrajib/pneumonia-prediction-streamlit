@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ============================================================
-echo  "Automated Pneumonia Detection — Local venv Setup"
+echo  "Automated Pneumonia and COVID-19 Detection — Local venv Setup"
 echo  "PyTorch CUDA 12.4  |  RTX 3060  |  Python 3.11+"
 echo ============================================================
 echo.
